@@ -158,7 +158,7 @@
     padding-right: 73px;
   }
 }.u-section-2 {
-  background-image: url("images/default-image.jpg");
+  background-image: linear-gradient(#999999, #1a1a1a);
 }
 
 .u-section-2 .u-sheet-1 {
@@ -284,11 +284,17 @@
   width: 800px;
   min-height: 250px;
   height: auto;
+  animation-duration: 1000ms;
   margin: 27px auto 0;
 }
 
 .u-section-3 .u-container-layout-1 {
   padding: 30px;
+}
+
+.u-section-3 .u-text-1 {
+  font-weight: 700;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-custom-html-1 {
